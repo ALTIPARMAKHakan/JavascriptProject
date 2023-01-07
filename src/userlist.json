@@ -1,0 +1,39 @@
+{
+    "users": [
+        {
+            "username": "deneme",
+            "firstname": "Haydar",
+            "name": "Kaptan",
+            "password":"123456789",
+            "address":"FriedrichEbertDamm 93a"
+        },
+        {
+            "username": "petralein",
+            "firstname": "Petra",
+            "name": "Lenk",
+            "password": "154ölkj5",
+            "address": "Musterstrasse 3, 42256 Musterort"
+        },
+        {
+            "username": "robby111",
+            "firstname": "Robert",
+            "name": "Petz",
+            "password": "154ö65jui5",
+            "address": "Musterstrasse 5, 42256 Musterort"
+        },
+        {
+            "username": "korben_jung",
+            "firstname": "Korben",
+            "name": "Jung",
+            "password": "43663bhfgjfj5",
+            "address": "Musterstrasse 6, 42256 Musterort"
+        },
+        {
+            "username": "rosscha",
+            "firstname": "Sascha",
+            "name": "Ross",
+            "password": "5464ghsado",
+            "address": "Musterstrasse 7, 42256 Musterort"
+        }
+    ]
+}

@@ -1,0 +1,208 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: rgb(210, 210, 210);
+}
+
+  article {
+    padding: 3rem 5rem;
+  }
+  .tabs > nav ul {
+    margin: 0;
+    padding: 1rem 0 0 3rem;
+    list-style-type: none;
+    list-style: none;
+    height: 2.9rem;
+    border: 1px solid #999999;
+    background-color: #3fa0ad;
+  }
+  .tabs > nav ul li {
+    display: inline-block;
+    padding: 0 1rem;
+    margin: 0;
+    height: 1.8rem;
+    white-space: nowrap;
+    line-height: 1.85rem;
+    border-color: #999999;
+    border-width: 1px;
+    border-style: solid solid none solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #d8d8d8;
+    background-image: linear-gradient(to bottom, #f9f9f9, #d8d8d8)
+  }
+  .tabs > nav ul li:hover {
+    background-color: #cacaca;
+    background-image: linear-gradient(to bottom, #eeeeee, #cacaca)
+  }
+  .tabs > nav ul li.active {
+    border-bottom: 2px solid #f9f9f9;
+    background-image: none;
+    background-color: #f9f9f9
+  }
+  .hiddenclass {display: none;
+}
+#txt{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: Orbitron;
+        letter-spacing: 7px;
+        color: crimson;
+        font-size: 30px;
+    
+}
+#tarih{
+    position: absolute;
+    top: 70px;
+    right: 0;
+    font-family: Orbitron;
+        letter-spacing: 2px;
+        color: crimson;
+        font-size: 15px;
+    
+}
+/* 
+#txt:hover{
+    transform: translateX(-5px); */
+
+ 
+
+#ms-div{
+    position: absolute;
+        top: 30px;
+        right: 0;
+        font-family: Orbitron;
+        letter-spacing: 7px;
+        color: crimson;
+        font-size: 30px;
+}
+
+ #responseText{
+     position: absolute;
+        top: 30px;
+        left: 0;
+        font-family: Orbitron;
+        letter-spacing: 3px;
+        color: crimson;
+        font-size: 10px;
+}
+
+
+#macskor{
+    position: absolute;
+    top: 15px;
+    left: 20;
+    font-family: Orbitron;
+    letter-spacing: 3px;
+    color: crimson;
+    font-size: 15px;
+}
+
+img {
+      width: 100%;
+  }
+.height {
+      height: 10px;
+  }
+#hava{
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+}
+#kur{
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+}
+  /* Image-container design /
+  .image-container {
+      max-width: 800px;
+      position: relative;
+      margin: auto;
+  }
+
+  .next {
+      right: 0;
+  }
+
+  / Next and previous icon design /
+  .previous,
+  .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      padding: 10px;
+      margin-top: -25px;
+  }
+
+  / caption decorate /
+  .captionText {
+      color: #000000;
+      font-size: 14px;
+      position: absolute;
+      padding: 12px 12px;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+  }
+
+   / Slider image number */
+  .slideNumber {
+      background-color: #5574C5;
+      color: white;
+      border-radius: 25px;
+      right: 0;
+      opacity: .5;
+      margin: 5px;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 24px;
+      position: absolute;
+  }
+  .fa {
+      font-size: 32px;
+  }
+
+  .fa:hover {
+      transform: rotate(360deg);
+      transition: 1s;
+      color: white;
+  }
+
+  .footerdot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbbbbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.5s ease;
+  }
+  .footerdot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.active,
+.footerdot:hover {
+    background-color: black;
+}
+
+p,h1,h2,li{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
